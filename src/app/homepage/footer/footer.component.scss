@@ -1,0 +1,58 @@
+footer{
+    background-color: black;
+    .contacts{
+      padding: 1rem 0 0 0;
+  
+      .title{
+        margin-bottom: 0.4rem;
+        color:white;
+        font-size: 0.8rem;
+      }
+      .social{
+  
+        padding-top: 1.5rem;
+       
+        a{
+          color: white;
+          font-size: 1.5rem;
+          margin-right: 1rem;
+          transition: all 0.15s;
+          &:last-child{
+            margin-right: 0;
+          }
+          &:hover{
+            text-decoration: none;
+            color:white;
+  
+          }
+       
+  
+  
+        }
+  
+      }
+    }
+  }
+  
+  
+  .hr{
+    height: 0.12rem;
+    background-color: white;
+  }
+  .fast-links{
+    p{
+      color: white;
+      font-size: 0.8rem;
+    }
+    a{
+      display: block;
+      color: white;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      &:hover{
+        text-decoration: none;
+        color:white;
+  
+      }
+    }
+  }

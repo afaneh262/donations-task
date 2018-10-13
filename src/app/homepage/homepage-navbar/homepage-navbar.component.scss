@@ -1,0 +1,36 @@
+.navbar {
+    z-index: 10;
+}
+
+.navbar-dark {    
+  
+    .navbar-nav {
+      .nav-link {
+        color: white;
+  
+        &:hover {
+          color: #AEB54C;
+        }        
+      }
+  
+      .show > .nav-link,
+      .active > .nav-link,
+      .nav-link.show,
+      .nav-link.active {
+        color: #AEB54C;
+      }
+    }
+}
+
+.spc-border{
+    border: 3px solid #AEB54C;
+    color: #AEB54C !important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.trp-border{
+  border: 3px solid rgba(255, 255, 255, 0);
+  padding-right: 15px;
+  padding-left: 15px;
+}
